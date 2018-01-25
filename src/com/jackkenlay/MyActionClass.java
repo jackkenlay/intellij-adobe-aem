@@ -4,6 +4,7 @@ import com.intellij.execution.filters.TextConsoleBuilderFactory;
 import com.intellij.openapi.actionSystem.AnAction;
 import com.intellij.openapi.actionSystem.AnActionEvent;
 import com.intellij.openapi.actionSystem.DataKeys;
+import com.intellij.openapi.actionSystem.PlatformDataKeys;
 import com.intellij.openapi.application.ApplicationManager;
 import com.intellij.openapi.progress.ProgressIndicator;
 import com.intellij.openapi.progress.Task;
@@ -28,10 +29,6 @@ public class MyActionClass extends AnAction {
     @Override
     public void actionPerformed(AnActionEvent e) {
 
-        componentName = JOptionPane.showInputDialog(null,"Enter component name:","my-component");
-
-        // TODO: insert action logic here
-
         /*
          * TO DO
          * Test Keyboard shortcut
@@ -39,8 +36,12 @@ public class MyActionClass extends AnAction {
          * Ensure dialog is smooth experience with keyboard
          * Test export
          * make README
+         * Make test whether its a file or folder
          * make decent JFrame inputdialog
          */
+
+        componentName = JOptionPane.showInputDialog(null,"Enter component name:","my-component");
+
         this.currentDir = getCurrentWorkingDirectory(e);
 
         // create component directory
@@ -63,8 +64,14 @@ public class MyActionClass extends AnAction {
 
         // create HTML
         createHTML(componentName);
+
+        refreshWindow(e);
     }
 
+    private void refreshWindow(AnActionEvent e){
+        Project project = e.getData(PlatformDataKeys.PROJECT);
+        project.getBaseDir().refresh(false,true);
+    }
 
     private void createContentXML(String componentName, String componentGroup) {
         String contentString = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n" +
