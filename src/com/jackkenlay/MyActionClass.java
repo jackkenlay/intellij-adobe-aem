@@ -15,6 +15,7 @@ import com.intellij.openapi.wm.ToolWindowAnchor;
 import com.intellij.openapi.wm.ToolWindowManager;
 import org.jetbrains.annotations.NotNull;
 
+import javax.swing.*;
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
@@ -23,15 +24,13 @@ import java.io.IOException;
 public class MyActionClass extends AnAction {
 
     private String currentDir = "";
+    private String componentName = "";
     @Override
     public void actionPerformed(AnActionEvent e) {
 
-        System.out.println("Actionn");
-
+        componentName = JOptionPane.showInputDialog(null,"Enter component name:","my-component");
 
         // TODO: insert action logic here
-
-        String componentName = "jackjack";
 
         /*
          * TO DO
@@ -40,11 +39,9 @@ public class MyActionClass extends AnAction {
          * Ensure dialog is smooth experience with keyboard
          * Test export
          * make README
-         *
+         * make decent JFrame inputdialog
          */
         this.currentDir = getCurrentWorkingDirectory(e);
-
-        System.out.println("currentDir: " + this.currentDir);
 
         // create component directory
         createFolder(componentName);
@@ -66,11 +63,6 @@ public class MyActionClass extends AnAction {
 
         // create HTML
         createHTML(componentName);
-
-        // finally
-        refreshWorkspace();
-
-        System.out.println("Donexx");
     }
 
 
@@ -163,10 +155,6 @@ public class MyActionClass extends AnAction {
 
         System.out.println("getCurrentWorkingDirectory returning: "+file.getPath());
         return file.getPath()+"/";
-    }
-
-    private void refreshWorkspace() {
-        System.out.println("Is this needed");
     }
 
     private String getCQDialogText(String componentName) {

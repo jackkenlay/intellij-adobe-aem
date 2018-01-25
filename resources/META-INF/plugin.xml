@@ -38,7 +38,7 @@
       <add-to-group group-id="ProjectViewPopupMenu" anchor="before" relative-to-action="HelpMenu"/>
       <!--<action id="a1" class="com.jackkenlay.MyActionClass" text="eeee"/>-->
       <group id="inner" text="AEM" popup="true">
-        <action class="com.jackkenlay.MyActionClass" id="a3" text="wwwwww"/>
+        <action class="com.jackkenlay.MyActionClass" id="a3" text="Create Component"/>
       </group>
     </group>
   </actions>

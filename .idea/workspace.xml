@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb84a4ff-9659-4a03-9e80-dd8bc5b00c4e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/out/production/adobe-aem-plugin/com/jackkenlay/MyActionClass.class" afterPath="$PROJECT_DIR$/out/production/adobe-aem-plugin/com/jackkenlay/MyActionClass.class" />
+      <change beforePath="$PROJECT_DIR$/resources/META-INF/plugin.xml" afterPath="$PROJECT_DIR$/resources/META-INF/plugin.xml" />
       <change beforePath="$PROJECT_DIR$/src/com/jackkenlay/MyActionClass.java" afterPath="$PROJECT_DIR$/src/com/jackkenlay/MyActionClass.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/jackkenlay/SettingsDialog.java" afterPath="$PROJECT_DIR$/src/com/jackkenlay/SettingsDialog.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,8 +20,8 @@
       <file leaf-file-name="plugin.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/META-INF/plugin.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="37" column="50" lean-forward="false" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="50" />
+            <state relative-caret-position="319">
+              <caret line="40" column="83" lean-forward="false" selection-start-line="40" selection-start-column="83" selection-end-line="40" selection-end-column="83" />
               <folding />
             </state>
           </provider>
@@ -28,16 +30,24 @@
       <file leaf-file-name="MyActionClass.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/jackkenlay/MyActionClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="164" column="32" lean-forward="false" selection-start-line="164" selection-start-column="32" selection-end-line="164" selection-end-column="32" />
+            <state relative-caret-position="210">
+              <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding>
-                <element signature="method#createContentXML#0;class#MyActionClass#0" expanded="false" />
-                <element signature="method#createEditConfig#0;class#MyActionClass#0" expanded="false" />
                 <element signature="method#createHTML#0;class#MyActionClass#0" expanded="false" />
                 <element signature="method#createClientLibs#0;class#MyActionClass#0" expanded="false" />
-                <element signature="e#6294#6295#0" expanded="true" />
-                <element signature="e#6346#6347#0" expanded="true" />
                 <element signature="method#getCQDialogText#0;class#MyActionClass#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SettingsDialog.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/jackkenlay/SettingsDialog.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="74" lean-forward="false" selection-start-line="12" selection-start-column="74" selection-end-line="12" selection-end-column="74" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -328,31 +338,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/META-INF/plugin.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="37" column="50" lean-forward="false" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="50" />
+        <state relative-caret-position="319">
+          <caret line="40" column="83" lean-forward="false" selection-start-line="40" selection-start-column="83" selection-end-line="40" selection-end-column="83" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jackkenlay/SettingsDialog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-          <folding />
+        <state relative-caret-position="180">
+          <caret line="12" column="74" lean-forward="false" selection-start-line="12" selection-start-column="74" selection-end-line="12" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jackkenlay/MyActionClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="164" column="32" lean-forward="false" selection-start-line="164" selection-start-column="32" selection-end-line="164" selection-end-column="32" />
+        <state relative-caret-position="210">
+          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding>
-            <element signature="method#createContentXML#0;class#MyActionClass#0" expanded="false" />
-            <element signature="method#createEditConfig#0;class#MyActionClass#0" expanded="false" />
             <element signature="method#createHTML#0;class#MyActionClass#0" expanded="false" />
             <element signature="method#createClientLibs#0;class#MyActionClass#0" expanded="false" />
-            <element signature="e#6294#6295#0" expanded="true" />
-            <element signature="e#6346#6347#0" expanded="true" />
             <element signature="method#getCQDialogText#0;class#MyActionClass#0" expanded="false" />
           </folding>
         </state>
