@@ -1,0 +1,46 @@
+<idea-plugin>
+  <id>com.your.company.unique.plugin.id</id>
+  <name>PAdobe AEM Plugin</name>
+  <version>1.0</version>
+  <vendor email="support@yourcompany.com" url="http://www.yourcompany.com">YourCompany</vendor>
+
+  <description><![CDATA[
+      A plugin used with AEM..<br>
+      <em>most HTML tags may be used</em>
+    ]]></description>
+
+  <change-notes><![CDATA[
+      Add change notes here.<br>
+      <em>most HTML tags may be used</em>
+    ]]>
+  </change-notes>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="173.0"/>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <!-- uncomment to enable plugin in all products
+  <depends>com.intellij.modules.lang</depends>
+  -->
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+  </extensions>
+
+  <actions>
+    <!-- Add your actions here -->
+    <!--<action id="MyPlugin.MyAction" class="com.jackkenlay.MyActionClass" text="xxxxxxxxxxxxxx" description="This was made using the wizard" popup="true">-->
+      <!--&lt;!&ndash;<add-to-group group-id="EditMenu" anchor="before" relative-to-action="WindowMenu"/>&ndash;&gt;-->
+      <!--<add-to-group anchor="after" group-id="ProjectViewPopupMenu" relative-to-action="EditSource"/>-->
+    <!--</action>-->
+    <group id="outer" text="AdobeAEM" description="Sample desc">
+      <add-to-group group-id="ProjectViewPopupMenu" anchor="before" relative-to-action="HelpMenu"/>
+      <!--<action id="a1" class="com.jackkenlay.MyActionClass" text="eeee"/>-->
+      <group id="inner" text="AEM" popup="true">
+        <action class="com.jackkenlay.MyActionClass" id="a3" text="wwwwww"/>
+      </group>
+    </group>
+  </actions>
+
+</idea-plugin>
