@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb84a4ff-9659-4a03-9e80-dd8bc5b00c4e" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/com/jackkenlay/MyActionClass.java" afterPath="$PROJECT_DIR$/src/com/jackkenlay/MyActionClass.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,22 +15,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="plugin.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="plugin.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/META-INF/plugin.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="40" column="76" lean-forward="false" selection-start-line="40" selection-start-column="76" selection-end-line="40" selection-end-column="76" />
+            <state relative-caret-position="274">
+              <caret line="37" column="50" lean-forward="false" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="50" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyActionClass.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MyActionClass.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/jackkenlay/MyActionClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-              <folding />
+            <state relative-caret-position="261">
+              <caret line="164" column="32" lean-forward="false" selection-start-line="164" selection-start-column="32" selection-end-line="164" selection-end-column="32" />
+              <folding>
+                <element signature="method#createContentXML#0;class#MyActionClass#0" expanded="false" />
+                <element signature="method#createEditConfig#0;class#MyActionClass#0" expanded="false" />
+                <element signature="method#createHTML#0;class#MyActionClass#0" expanded="false" />
+                <element signature="method#createClientLibs#0;class#MyActionClass#0" expanded="false" />
+                <element signature="e#6294#6295#0" expanded="true" />
+                <element signature="e#6346#6347#0" expanded="true" />
+                <element signature="method#getCQDialogText#0;class#MyActionClass#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -47,6 +56,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>MyItem</find>
+      <find>getCurrentWorkingDirectory</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -61,9 +71,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/com/jackkenlay/TextBoxes.java" />
-        <option value="$PROJECT_DIR$/src/com/jackkenlay/MyActionClass.java" />
         <option value="$PROJECT_DIR$/src/com/jackkenlay/IntelliVaultImportAction.java" />
         <option value="$PROJECT_DIR$/resources/META-INF/plugin.xml" />
+        <option value="$PROJECT_DIR$/src/com/jackkenlay/SettingsDialog.java" />
+        <option value="$PROJECT_DIR$/src/com/jackkenlay/MyActionClass.java" />
       </list>
     </option>
   </component>
@@ -79,7 +90,9 @@
     <option name="width" value="1440" />
     <option name="height" value="877" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -269,7 +282,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -313,19 +326,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jackkenlay/MyActionClass.java">
+    <entry file="file://$PROJECT_DIR$/resources/META-INF/plugin.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        <state relative-caret-position="274">
+          <caret line="37" column="50" lean-forward="false" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="50" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/META-INF/plugin.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/jackkenlay/SettingsDialog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="40" column="76" lean-forward="false" selection-start-line="40" selection-start-column="76" selection-end-line="40" selection-end-column="76" />
+        <state relative-caret-position="45">
+          <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jackkenlay/MyActionClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="164" column="32" lean-forward="false" selection-start-line="164" selection-start-column="32" selection-end-line="164" selection-end-column="32" />
+          <folding>
+            <element signature="method#createContentXML#0;class#MyActionClass#0" expanded="false" />
+            <element signature="method#createEditConfig#0;class#MyActionClass#0" expanded="false" />
+            <element signature="method#createHTML#0;class#MyActionClass#0" expanded="false" />
+            <element signature="method#createClientLibs#0;class#MyActionClass#0" expanded="false" />
+            <element signature="e#6294#6295#0" expanded="true" />
+            <element signature="e#6346#6347#0" expanded="true" />
+            <element signature="method#getCQDialogText#0;class#MyActionClass#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
