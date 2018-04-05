@@ -1,4 +1,4 @@
-#IntelliJ Plugin for AEM
+# intelliJ Plugin for AEM
 
 ## Install
 * IntelliJ IDEA -> Preferences -> Plugins -> Install Plugin From Disk -> (Then ensure the tickbox is ticked/green and restart IntelliJ)
