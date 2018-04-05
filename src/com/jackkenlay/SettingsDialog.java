@@ -10,7 +10,7 @@ public class SettingsDialog  extends DialogWrapper {
 
     public SettingsDialog() {
         super(false);
-System.out.println("Defiuhefiuhwefiuhiuhiuhiuhiuhhuhiuhiuhuihiuhuhiiuhiuih");
+        System.out.println("Settings Dialog Loaded");
         init();
     }
 

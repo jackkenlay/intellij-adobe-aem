@@ -1,4 +1,9 @@
-# intelliJ Plugin for AEM
+# IntelliJ Plugin for AEM
+
+## Development
+
+If intelliJ cannot find packages, click on File -> Invalidate Caches/Restart.
+
 
 ## Install
 * IntelliJ IDEA -> Preferences -> Plugins -> Install Plugin From Disk -> (Then ensure the tickbox is ticked/green and restart IntelliJ)
